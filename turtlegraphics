@@ -1,0 +1,10 @@
+def square(x, y, width, color):
+turtle.penup() # Raise the pen
+turtle.goto(x, y) # Move to (X,Y)
+turtle.fillcolor(color) # Set the fill color
+turtle.pendown() # Lower the pen
+turtle.begin_fill() # Start filling
+for count in range(4): # Draw a square
+turtle.forward(width)
+turtle.left(90)
+turtle.end_fill() # End filling
